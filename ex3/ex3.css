@@ -1,2 +1,38 @@
 /* 🦊 Créez vos styles ici */
 /* Colors: #62306d, #f7ec7d  */
+
+
+body {
+    background-color: #62306d;
+}
+
+.dessin {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 200px;
+    width: 300px;
+    margin: 50px;
+}
+
+.case_violette {
+    background-color: #62306d;
+    height: 100px;
+    width: 100px;
+}
+
+.jaune {
+    background-color: #f7ec7d;
+    width: 100px;
+    height: 100px;
+}
+
+.case_jaune_1 {
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
+
+.case_jaune_2 {
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}

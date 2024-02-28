@@ -1,2 +1,14 @@
 /* 🦊 Créez vos styles ici */
 /* Colors: #5d3a3a, #b5e0ba  */
+
+.block_brun {
+    background-color: #5d3a3a;
+    height: 300px;
+    width: 400px;
+}
+
+.block_menthe {
+    background-color: #b5e0ba;
+    height: 200px;
+    width: 200px;
+}
