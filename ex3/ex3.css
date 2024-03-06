@@ -12,7 +12,7 @@ body {
     flex-wrap: wrap;
     height: 200px;
     width: 300px;
-    margin: 50px;
+    padding: 50px;
 }
 
 .case_violette {

@@ -1,2 +1,35 @@
 /* 🦊 Créez vos styles ici */
 /* Colors: #6592cf, #243d83, #eeb850  */
+body {
+    background-color: #6592cf;
+    display: flex;
+    flex-direction: column;
+}
+
+.rect_bleu {
+    display: flex;
+    background-color: #243d83;
+    height: 150px;
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 75px;
+    margin-left: 50px;
+}
+
+.petit_rond {
+    border-radius: 50%;
+    background-color: #eeb850;
+    height: 50px;
+    width: 50px
+}
+
+.grand_rond {
+    display: flex;
+    border: solid 50px #6592cf;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+}
