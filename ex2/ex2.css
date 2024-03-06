@@ -1,2 +1,28 @@
 /* 🦊 Créez vos styles ici */
 /* Colors: #62374e, #fdc57b  */
+
+* {
+    box-sizing: border-box;
+}
+
+.block_violet {
+    display: flex;
+    background-color: #62374e;
+    height: 300px;
+    width: 400px;
+    flex-direction: column;
+    gap: 100px;
+    padding: 50px;
+}
+
+.deux_carres {
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+}
+
+.carre_orange {
+    background-color: #fdc57b;
+    height: 50px;
+    width: 50px;
+}
